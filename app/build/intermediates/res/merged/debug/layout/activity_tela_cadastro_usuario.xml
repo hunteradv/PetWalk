@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.labinfo.pet_walk.Usuario.TelaCadastroUsuario">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:id="@+id/edt_nome"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16dp"
+            android:hint="DIGITE SEU NOME*"
+            android:background="@drawable/edittextshape"
+            android:layout_marginTop="5dp"
+            android:password="false"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:id="@+id/edt_email"
+            android:layout_gravity="center_horizontal"
+            android:hint="E-MAIL*"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextshape"
+            android:password="false"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:id="@+id/edt_senha"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16dp"
+            android:hint="SENHA*"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextshape"
+            android:password="false"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:id="@+id/edt_celular"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16dp"
+            android:hint="NUMERO DO CELULAR*"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextshape"
+            android:password="false"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:id="@+id/edt_endereco"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16dp"
+            android:hint="ENDEREÇO*"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextshape"
+            android:password="false"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:id="@+id/edt_pet"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16dp"
+            android:hint="NOME DO PET"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextshape"
+            android:password="false"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:id="@+id/edt_raca"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16dp"
+            android:hint="RAÇA"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextshape"
+            android:password="false"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:id="@+id/edt_porte"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16dp"
+            android:hint="PORTE "
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittextshape"
+            android:password="false"
+            android:paddingStart="10dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal"
+            android:onClick="cadastrar_clique"
+            android:textSize="16dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/buttonshape" />
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/S:/_Android/0713_final1/app/src/main/res/layout/activity_tela_cadastro_usuario.xml -->

@@ -1,0 +1,243 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.labinfo.pet_walk.Usuario.PrincipalDados">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        tools:context="com.example.labinfo.pet_walk.TelaAlterarUsuario"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="300dp"
+            android:layout_height="422dp"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/linearLayout2"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/linearLayout6">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_nome"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextshape"
+                android:layout_marginBottom="0dp"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_email"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edittextshape"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_endereco"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edittextshape"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_celular"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="17dp"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edittextshape"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_senha"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="17dp"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edittextshape"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_pet"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edittextshape"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_raca"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edittextshape"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_porte"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/edittextshape"
+                android:paddingStart="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="95dp"
+            android:layout_height="422dp"
+            android:layout_above="@+id/linearLayout5"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout6"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOME"
+                android:id="@+id/tv_nome"
+                android:textSize="15dp"
+                android:layout_marginTop="6dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-MAIL"
+                android:id="@+id/tv_email"
+                android:textSize="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENDEREÇO"
+                android:id="@+id/tv_endereco"
+                android:textSize="15dp"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CELULAR"
+                android:id="@+id/tv_celular"
+                android:textSize="15dp"
+                android:layout_marginTop="26dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SENHA"
+                android:id="@+id/tv_senha"
+                android:textSize="15dp"
+                android:layout_marginTop="23dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOME DO PET"
+                android:id="@+id/tv_pet"
+                android:textSize="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAÇA"
+                android:id="@+id/tv_raca"
+                android:textSize="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PORTE"
+                android:id="@+id/tv_porte"
+                android:textSize="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout5">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="EXCLUIR"
+                android:id="@+id/btn_excluir"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonshape" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="SALVAR"
+                android:id="@+id/btn_salvar"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonshape" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
+<!-- From: file:/S:/_Android/0713_final1/app/src/main/res/layout/fragment_principal_dados.xml -->
