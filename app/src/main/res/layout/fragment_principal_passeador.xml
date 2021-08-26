@@ -1,0 +1,69 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.labinfo.pet_walk.Passeador.PrincipalPasseador">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Olá"
+                android:id="@+id/tv_titulo1"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tv_nome_pass"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#fb6a6a"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Chamados em espera:"
+            android:id="@+id/tv_cha_espera"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="255dp"
+            android:id="@+id/lst_cha_espera"
+            android:background="#ffffff"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CONFIRMADOS"
+            android:id="@+id/tv_cha_conf"
+            android:layout_marginTop="15dp" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lst_conf" />
+    </LinearLayout>
+</FrameLayout>

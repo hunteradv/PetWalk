@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/usuarios" android:icon="@drawable/listachamados"
+            android:title="LISTAR CHAMADOS" />
+        <item android:id="@+id/chamadosP" android:icon="@drawable/historico"
+            android:title="HISTÓRICO" />
+        <item android:id="@+id/meusdadosP" android:icon="@drawable/usuario"
+            android:title="MEUS DADOS" />
+        <item android:id="@+id/sairP" android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="SAIR" />
+    </group>
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.labinfo.pet_walk" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Pet Walk"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".SplashTela" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Usuario.TelaLoginUsuario" >
+        </activity>
+        <activity android:name=".Usuario.TelaCadastroUsuario" >
+        </activity>
+        <activity android:name=".Passeador.TelaLoginPasseador" >
+        </activity>
+        <activity android:name=".Passeador.TelaCadastroPasseador" >
+        </activity>
+        <activity android:name=".Usuario.TelaChamaPasseador" >
+        </activity>
+        <activity
+            android:name=".Usuario.TelaNavDrawer"
+            android:label="@string/title_activity_tela_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".Usuario.TelaUsuarioCancelar" >
+        </activity>
+        <activity
+            android:name=".Passeador.TelaPasseadorNav"
+            android:label="@string/title_activity_tela_passeador_nav"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".Passeador.TelaConfirmaChamado" >
+        </activity>
+        <activity android:name=".Usuario.NotificationActivity" >
+        </activity>
+        <activity android:name=".TelaInicial" >
+        </activity>
+    </application>
+
+</manifest>

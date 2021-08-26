@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pet_Walk</string>
+    <string name="title_activity_tela_principal">TelaPrincipal</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tela_barra_lateral">TelaBarraLateral</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela_nav_drawer">Dono</string>
+    <string name="title_activity_tela_passeador_nav">Passeador</string>
+</resources>

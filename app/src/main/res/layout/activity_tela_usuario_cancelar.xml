@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.labinfo.pet_walk.Usuario.TelaUsuarioCancelar">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="248dp"
+            android:layout_weight="0.13"
+            android:background="@drawable/edittextshape">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DESEJA CANCELAR?"
+                android:id="@+id/tv_titulo"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tv_nome_usuario"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Passeador:"
+                android:id="@+id/tv_titulo2"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tv_nome_passeador"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="0dp"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Data:"
+                android:id="@+id/tv_titulo3"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/tv_data"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="0dp"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR"
+            android:id="@+id/button14"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:onClick="cancelar_clique"
+            android:background="@drawable/buttonshape" />
+    </LinearLayout>
+</RelativeLayout>
