@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="S:\_Android\0713_final1\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="S:\_Android\0713_final1\app\build\intermediates\pre-dexed\debug\classes-0eac8ab62134d96bc4a5714c7a63562e44cf29d1.jar" />
+    </item>
+    <item
+        jar="S:\_Android\0713_final1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="S:\_Android\0713_final1\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0-eadc620b02445d5a0a40ce3e0b12112451d4642c.jar" />
+    </item>
+    <item
+        jar="C:\Users\felip\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\18.0\cce0823396aa693798f8882e64213b1772032b09\guava-18.0.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="S:\_Android\0713_final1\app\build\intermediates\pre-dexed\debug\guava-18.0-27a55b51ca58c615b35c629be17b024e7991bc50.jar" />
+    </item>
+    <item
+        jar="S:\_Android\0713_final1\app\build\intermediates\exploded-aar\com.github.satyan\sugar\1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="ac045b53684345f4ec8468477e8fc5034d0d2bfd">
+        <dex dex="S:\_Android\0713_final1\app\build\intermediates\pre-dexed\debug\classes-1eaff28b5ba9c0b091c220e20889b18c935f62dd.jar" />
+    </item>
+    <item
+        jar="S:\_Android\0713_final1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="S:\_Android\0713_final1\app\build\intermediates\pre-dexed\debug\classes-4d00d602de6114e44cbbd74b6cbcf21c8936f1e1.jar" />
+    </item>
+    <item
+        jar="S:\_Android\0713_final1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="S:\_Android\0713_final1\app\build\intermediates\pre-dexed\debug\classes-42a7e95a8eb726f84c443befc44399d095aae7e7.jar" />
+    </item>
+    <item
+        jar="S:\_Android\0713_final1\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="S:\_Android\0713_final1\app\build\intermediates\pre-dexed\debug\classes-0862990e0b9570f4cc7ce99875c3c77fb3278e16.jar" />
+    </item>
+    <item
+        jar="S:\AppData\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="S:\_Android\0713_final1\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0-1cbd3ec90e02437e974b3a8c7339dd8ab9b47d8a.jar" />
+    </item>
+    <item
+        jar="S:\_Android\0713_final1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="S:\_Android\0713_final1\app\build\intermediates\pre-dexed\debug\classes-8d5783b64e7a11f32f8b4e80f2141fd0d42003b7.jar" />
+    </item>
+    <item
+        jar="S:\_Android\0713_final1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="28.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="S:\_Android\0713_final1\app\build\intermediates\pre-dexed\debug\classes-3e3b07bdeccaf291c5419a9d8825cf1d594ddff8.jar" />
+    </item>
+
+</items>
